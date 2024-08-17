@@ -1,0 +1,93 @@
+<!DOCTYPe html>
+<html lang="en-USA">
+	<head>
+		<title>Embracing Minimalism</title>
+		<meta name="viewport" content="width=device-width; initail scale =1.0">
+		<meta charset="UTF-8">
+		<meta http-equiv="refresh" content="60">
+		
+		<style>
+			
+			body{
+			padding:164px;
+			}
+			
+			
+			div{
+			border-radius:16px;
+			box-shadow: 1px 3px 10px 5px rgba(17, 23, 41, 0.05);
+			width:370px;
+			font-family:arial;
+			}
+			
+			img{
+			border-radius:30px;
+			padding:10px;
+			margin:8px;
+			width:336px;
+			height:152px;
+			}
+			
+			button{
+			background-color:#E6D6FC;
+			color:#883AE1;
+			border:4px solid #E6D6FC;
+			border-radius:10px;
+			}
+			
+			p{
+			color:#696969;
+			
+			}
+			.side{
+			margin-left:20px;
+			margin-right:18px;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+	
+		<div>
+		
+			<img src="file:///C:/Users/gmsar/OneDrive/Desktop/Card/cactus_img.jpg" alt="card">
+			
+			<button class="side">Design</button>
+			
+			<h2 class="side">Embracing Minimalism</h2>
+			<p class="side">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+			<hr>
+			<p class="side">Annie Spratt</p>
+			<br>
+			
+			<button aria-expanded="false" aria-controls="menu" onclick="toggleMenu(this)">
+    Toggle Menu
+</button>
+			
+		</div>
+	
+		
+		<button aria-expanded="false" aria-controls="menu" onclick="toggleMenu(this)">
+    Toggle Menu
+</button>
+<div id="menu" hidden>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+
+<script>
+function toggleMenu(button) {
+    const menu = document.getElementById('menu');
+    const isExpanded = button.getAttribute('aria-expanded') === 'true';
+    button.setAttribute('aria-expanded', !isExpanded);
+    menu.hidden = isExpanded;
+}
+</script>
+
+	</body>
+</html>

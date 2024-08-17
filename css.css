@@ -1,0 +1,17 @@
+<style>
+body{background-color:#421314;
+color:#ffffff;
+font-family:georgin;
+boarder:2px solid #ffffff;
+}
+h1{border:2px solid #ffffff;
+text-align:center;
+background-color:#000000;}
+h2{border:2px solid #ffffff;
+background-color:#ffffff;
+text-align:center;}
+p {boarder:1px solid #000000;
+font-size:78%;}
+blockquote{boarder:2px solid #000000;
+background-color:#ffffff;}
+img{ align:center; boarder:3px solid #000000;}

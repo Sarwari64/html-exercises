@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta name="veiwport" content="width=device-width, initial scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/hm.jpg">
+	<style>
+	
+		body{
+		font-family:georgian;
+		}
+		
+		table,th,td,tr{
+		border-collapse:collapse;
+		margin:0px;
+		padding:0px;
+		background-color:#000000;
+		color:#ffffff;
+		}
+		
+		
+		
+		
+		
+		table{
+		width:100%;
+		}
+		
+		
+		
+		
+		.td1{
+		height:100px;
+		border-collapse:collapse;
+		background-color:#000000;
+		color:#ffffff;
+		}
+		
+		.td2{
+		height:400px;
+		color:#ffffff;
+		padding:30px;
+		margin:10px;
+		padding-left:60px;
+		padding-bottom:100px;
+		}
+		
+		.grid{
+		display:grid;
+		grid-template-columns:70% 30%;
+		background-color:#000000;
+		color:#ffffff;
+		height:500px;
+		}
+	
+		
+		
+		
+		
+		ul{
+		list-style-type:none;
+		overflow:hidden;
+		padding:0px;
+		margin:0px;
+		color:#ffffff;
+		font-size:18px;
+		background-color:#000000;
+		color:#ffffff;
+		
+		}
+		
+		li{
+		float:left;
+		padding-left:70px;
+		padding-top:8px;
+		}
+		
+		li a{
+		display:block;
+		color:white;
+		text-decoration:none;
+		}
+		
+		li a:visit{color:gray;}
+		
+		li a:hover{color:#4DB4B5;}
+		
+		div{
+		padding:40px;
+		padding-top:120px;
+		font-size:45px;
+		padding-left:100px;
+		}
+		
+		button{
+		color:#000000;
+		background-color:#ffffff;
+		border:2px solid #ffffff;
+		border-radius:5px;
+		font-family:georgian;
+		font-size:20px;
+		height:40px;
+		}
+		
+		button a{
+		color:#000000;
+		text-decoration:none;
+		}
+		
+		button a:hover{
+		color:#4DB4B5;
+		}
+		
+		
+		h3{
+		text-align:center;
+		}
+		
+		
+		caption{
+		background-color:#000000;
+		padding-top:24px;
+		padding-bottom:24px;
+		}
+		
+		form{font-family:georgian;}
+		
+		
+	</style>
+</head>
+<body>
+	
+	<table>
+	<caption>Welcome to Our Page</caption>
+		<tr>
+			<td colspan="4">
+				<ul>
+				<li><a href="file:///D:/html%20exercise/hm.index.html"><img src="img/hm.jpg" alt="logo" style="width:30px; height:30px;"></a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Mission</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Oppertunity</a></li>
+					<li><a href="#">Apply</a></li>
+					<li><a href="#">Policy</a></li>
+				</ul>
+			</td>
+		</tr>
+		
+		
+		
+		
+		
+		<tr>
+			<td colspan="3" class="grid">
+				<div><p>The Most Advanced AI, Ready for Enterprise <br><button><a href="#">Get Start</a></button></p>
+				<br>
+				<br>
+				<br>
+				<iframe src="https://www.wikipida.com" height="400px" width="500px" frameborder="collapse">Help...</iframe>
+				</div>
+				
+				<img src="img/ai.png" alt="photo" style="width:100%; height:60%; padding-top:90px;">
+			</td>
+			
+			<td rowspan="3" width="250px;">
+				<h3>Song....</h3>
+				<iframe width="200" height="150 " src="https://www.youtube.com/embed/b6bgN8ZwAOs?si=Fb1qZnMLqC8cHLuk" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-left:20px;">Serching....</iframe>
+			</td></tr>
+		
+		<tr class="td2">
+			<td colspan="1"></td>
+		</tr>
+		
+		<tr class="td1">
+			<td colspan="4"></td>
+			
+		</tr>
+	</table>	
+	<br>
+	<br>
+	
+	
+	<form action="/page.php" method="post">
+	<fieldset>
+	<legend>Registration</legend>
+		<label for="fname">Username</label><br>
+		<input type="text" id="fname" name="username" placeholder="Username"><br>
+		<label for="lname"></label>
+		<input type="password" placeholder="Password" id="fname" name="password"><br>
+		<label for="language1">English</label>
+		<input type="radio" id="language1" name="language" value="English"><br>
+		<label for="love">Spanish</label>
+		<input type="radio" id="language2" name="language" value="Spanish"><br>
+		<label for="po">Policy</label>
+		<input type="checkbox" id="po" name="term1" value="policy"><br>
+		<label for="to">Term</label>
+		<input type="checkbox" id="to" name="term2" value="Term"><br>
+		
+		<input list="cities">
+		<datalist id="cities">
+			<option value="San Mateo">San Mateo</option>
+			<option value="Foster City" selected>Foster City</option>
+			<option value="San Monaca">San Monaca</option>
+			<option value="Santa">Sananta</option>
+			<option value="San Dude">San Dude</option>
+			<option value="San Boys">San Boys</option>
+			<option value="San Girls">San Girls</option>
+			<option value="San Old">San Old</option>
+		</datalist>
+		<br>
+		<textarea name="feedback" style="height:200px; width:300px;"></textarea>
+		<br>
+		<button type="button" onclick="alert('Welecome To Our Store')" style="background-color:#000000; color:#ffffff">See!</button>
+		</fieldset>
+		<br>
+		<br>
+		<br>
+		<label for="fav">Birday</label><br>
+		<input type="date" id="fav" name="birday" style="background-color:black; color:white; width:105px; height:40px; font-family:georgian; font-size:15px;">
+	
+		<label for="date">Date</label>
+		<input type="date" name="date" id="date">
+		
+		<label for="fav color">Fav Color</label>
+		<input type="color" name="Favorate color" id="fav color" value="#000000;">
+		<input type="color" name="her fav color" value="#696969;">
+		<input type="datetime-local" name="current time">
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email address" placeholder="Email">
+		<label for="Attach">Attach</label>
+		<input type="file" name="file" id="Attach">
+	</form>
+	
+	<input type="datetime-local" name="meetting">
+	<input type="email" name="email address" placeholder="Emaill Address">
+	<input type="file" name="file">
+	
+	<br>
+	<input type="hidden" id="userid" name="userid" value="12345">
+
+</body>
+</html>

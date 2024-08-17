@@ -1,0 +1,80 @@
+<!DOCTYPE html>	
+<html lang="en-us">
+	<head>
+		<title>Hope</title>
+		<meta name="discreiption" content="we are happy to have you here.">
+		<meta name="keywords" content="we,are,happy,to,have,you,here">
+		<meta name="author" content="mustafa">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<!---<meta http-equiv="refresh" content="30">--->
+		<link rel="icon" type="image/x-icon" href="file:///D:/html%20exercise/IMG/R.png">
+		
+		<style>
+			form{
+			background-color:#696969;
+			color:#ffffff;
+			border:2px solid #ffffff;
+			padding:4px;
+			marging:4px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="/action_page.php" method="post" autocomplete="on" target="_blank">
+			<label for="fname">Username</label><br>
+			<input type="text" name="username" id="fname" autocomplete="username"><br>
+			
+			<label for="lname">Password</label><br>
+			<input type="password" id="lname" name="password" autocomplete="current-Password"><br>
+			
+			<label for="email">Email</label><br>
+			<input type="text" name="email" id="email" autocomplete="email"><br>
+			
+			
+			
+			<label for="pen">HTML</label>
+			<input type="radio" name="languages" id="pen" value="html">
+			<br>
+			
+			<label for="book">CSS</label>
+			<input type="radio" name="languages" id="book" value="css"><br>
+			
+			<label for="notebook">JAVA SCRIPT</label>
+			<input type="radio" name="languages" id="notebook" value="java script">
+			<br>
+			<br>
+			
+			
+			<input type="checkbox" id="bike" value="terms" name="terms&policy1">
+			<label for="bike">Please accept our terms.</label><br>
+			
+			<input type="checkbox" id="car" value="policy" name="terms&policy2">
+			<label for="car">Please accept our policy.</label><br>
+			
+			<input type="checkbox" id="scooter" name="terms&policy3" value="reurn policy">
+			<label for="scooter">Please accept our return policy.</label>
+			<br>
+			<br>
+			
+			<label for="ven">Chose you of the security options:</label><br>
+			<select id="ven" name="van" size="3" multiple style="border-radius:4px; border:3px solid #696969; width:220px; height:80px;">
+				<option value="toyota">Toyota</option>
+				<option value="lexuis">Lexuis</option>
+				<option value="ford">Ford</option>
+				<option value="volvo" >Volvo</option>
+				<option value="porch" selected="porch">Porch</option>
+			</select>
+			<br>
+			<br>
+			<label for="d">Discription:</label><br>
+			<textarea name="massage" rows="5" cols="15" value="discription" id="d" style="width:300px; height:300px; border:2px solid #696969; border-radius:30px;"></textarea>
+			
+			<br><input type="submit" value="Log in"><br>
+			
+			<input type="button" value="Rest"><br>
+
+			
+		</form>
+	</body>
+</html>
